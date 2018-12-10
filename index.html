@@ -1,0 +1,113 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Paris</title>
+
+    <style>
+    @font-face {
+font-family: LatoLight;
+src: url(LatoLight.ttf);
+    }
+
+html *
+{
+    font-family: LatoLight;
+    color: white;
+}
+
+        body
+{
+    background: linear-gradient(to right, #F0F8FF, #E1E9F0); 
+}
+    
+table
+{
+    width: 696px;
+    height: 115px;
+}
+
+td{
+    text-align: center;
+}
+
+    .block1{
+margin:0 auto;
+	width: 696px;
+	height: 435px;
+	border: 1px dotted;
+	background-image: url(back.png);
+    }
+
+    div.left_block {
+float:left;
+width:80px;
+padding-left: 370px;
+padding-top: 70px;
+}
+
+div.right_block {
+float:right;
+clear: right;
+width:100px;
+height: 100px;
+margin-right: 100px;
+}
+
+    div.bottom_block {
+float:bottom;
+margin-top: 320px;
+width: 696px;
+height: 115px;
+background-color: black;
+    opacity: 0.6;
+}
+
+        hr {
+border: 0;
+height: 2px;
+width: 696px;
+background: #000;
+background-image: -webkit-linear-gradient(left, #fff, #000, #fff);
+    }
+</style>
+
+</head>
+
+<body>
+    <header>
+            <p style="text-align: center; font-size: 60px">Weather in Paris</p>
+    </header>
+
+
+         <div class = "block1">
+            <div class = "right_block">
+                <p style = "font-size: 60px; font-weight: bold">12°</p> 
+                <p>Paris, France</p>
+                </div> 
+
+                <div class = "left_block"> <p style="font-size: 15px;">Friday <br/> August, 23d</p> </div>
+
+                <div class="bottom_block">
+                <table>
+                    <tr>
+                        <td>←<br> </td>
+                        <td>Monday <br> 15</td>
+                        <td>Tuesday <br> 12</td>
+                        <td>Wednesday <br> 23</td>
+                        <td>Thursday <br> 10</td>
+                        <td>→</td>
+
+                    </tr>
+                
+                </table>
+            </div>
+
+         </div>
+
+
+<hr/>
+
+</body>
+
+</html>
